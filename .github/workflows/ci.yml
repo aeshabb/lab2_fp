@@ -1,0 +1,45 @@
+name: OCaml CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-test-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up OCaml
+        uses: ocaml/setup-ocaml@v3
+        with:
+          ocaml-compiler: '4.14.1'
+
+      - name: Install dependencies
+        run: |
+          opam install . --deps-only --with-test -y
+          opam install ocamlformat.0.26.1 ocaml-lsp-server -y
+
+      - name: Check formatting
+        run: |
+          eval $(opam env)
+          ocamlformat --enable-outside-detected-project --check $(git ls-files '*.ml' '*.mli')
+
+      - name: Build
+        run: |
+          eval $(opam env)
+          dune build
+
+      - name: Run tests
+        run: |
+          eval $(opam env)
+          dune test
+
+      - name: Lint with ocaml-lsp (ocamlformat check again as a proxy)
+        run: |
+          eval $(opam env)
+          ocamlformat --enable-outside-detected-project --check $(git ls-files '*.ml' '*.mli')
