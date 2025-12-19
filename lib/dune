@@ -1,0 +1,3 @@
+(library
+ (name prefix_tree_dict)
+ (public_name prefix_tree_dict))
