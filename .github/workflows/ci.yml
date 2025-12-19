@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           opam install . --deps-only --with-test -y
-          opam install ocamlformat.0.26.1 ocaml-lsp-server -y
+          opam install ocamlformat.0.28.1 ocaml-lsp-server -y
 
       - name: Check formatting
         run: |
