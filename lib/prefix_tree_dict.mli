@@ -43,8 +43,8 @@ end
 (** Модуль для строковых ключей *)
 module StringKey : KEY with type t = string and type elem = char
 
-(** Стандартная инстанциация для строковых ключей *)
 type 'a t
+(** Стандартная инстанциация для строковых ключей *)
 
 val empty : 'a t
 val is_empty : 'a t -> bool
