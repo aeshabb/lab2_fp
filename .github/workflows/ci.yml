@@ -22,7 +22,11 @@ jobs:
       - name: Install dependencies
         run: |
           opam install . --deps-only --with-test -y
-          opam install ocamlformat.0.28.1 ocaml-lsp-server -y
+          # Retry ocamlformat installation up to 3 times in case of network issues
+          for i in 1 2 3; do
+            opam install ocamlformat.0.28.1 -y && break || sleep 10
+          done
+          opam install ocaml-lsp-server -y || true
 
       - name: Check formatting
         run: |
