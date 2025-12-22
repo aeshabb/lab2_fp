@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/prefix_tree_dict/META"
+  "_build/install/default/lib/prefix_tree_dict/dune-package"
+  "_build/install/default/lib/prefix_tree_dict/opam"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.a"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.cma"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.cmi"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.cmt"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.cmti"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.cmx"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.cmxa"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.ml"
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.mli"
+]
+libexec: [
+  "_build/install/default/lib/prefix_tree_dict/prefix_tree_dict.cmxs"
+]
+doc: [
+  "_build/install/default/doc/prefix_tree_dict/README.md"
+]

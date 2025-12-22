@@ -1,0 +1,33 @@
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Start test Prefix Tree Dict тесты:0:Unit тесты:0:empty.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Test Prefix Tree Dict тесты:0:Unit тесты:0:empty is successful.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: End test Prefix Tree Dict тесты:0:Unit тесты:0:empty.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Start test Prefix Tree Dict тесты:0:Unit тесты:6:remove_all.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Test Prefix Tree Dict тесты:0:Unit тесты:6:remove_all is successful.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: End test Prefix Tree Dict тесты:0:Unit тесты:6:remove_all.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Start test Prefix Tree Dict тесты:0:Unit тесты:9:map.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Test Prefix Tree Dict тесты:0:Unit тесты:9:map is successful.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: End test Prefix Tree Dict тесты:0:Unit тесты:9:map.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Start test Prefix Tree Dict тесты:0:Unit тесты:13:fold_left.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Test Prefix Tree Dict тесты:0:Unit тесты:13:fold_left is successful.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: End test Prefix Tree Dict тесты:0:Unit тесты:13:fold_left.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Start test Prefix Tree Dict тесты:0:Unit тесты:19:equal_many_elements.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Test Prefix Tree Dict тесты:0:Unit тесты:19:equal_many_elements is successful.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: End test Prefix Tree Dict тесты:0:Unit тесты:19:equal_many_elements.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Start test Prefix Tree Dict тесты:1:Property-based тесты:1:Моноид: merge d empty = d.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: 
+2025-12-22T12:20:44+00:00 aeshabb#01 I: law Моноид: merge d empty = d: 100 relevant cases (100 total)
+2025-12-22T12:20:44+00:00 aeshabb#01 I: 
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Test Prefix Tree Dict тесты:1:Property-based тесты:1:Моноид: merge d empty = d is successful.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: End test Prefix Tree Dict тесты:1:Property-based тесты:1:Моноид: merge d empty = d.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Start test Prefix Tree Dict тесты:1:Property-based тесты:7:map id = id.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: 
+2025-12-22T12:20:44+00:00 aeshabb#01 I: law map id = id: 100 relevant cases (100 total)
+2025-12-22T12:20:44+00:00 aeshabb#01 I: 
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Test Prefix Tree Dict тесты:1:Property-based тесты:7:map id = id is successful.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: End test Prefix Tree Dict тесты:1:Property-based тесты:7:map id = id.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Start test Prefix Tree Dict тесты:1:Property-based тесты:11:fold_left sum = sum of values.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: 
+2025-12-22T12:20:44+00:00 aeshabb#01 I: law fold_left sum = sum of values: 100 relevant cases (100 total)
+2025-12-22T12:20:44+00:00 aeshabb#01 I: 
+2025-12-22T12:20:44+00:00 aeshabb#01 I: Test Prefix Tree Dict тесты:1:Property-based тесты:11:fold_left sum = sum of values is successful.
+2025-12-22T12:20:44+00:00 aeshabb#01 I: End test Prefix Tree Dict тесты:1:Property-based тесты:11:fold_left sum = sum of values.

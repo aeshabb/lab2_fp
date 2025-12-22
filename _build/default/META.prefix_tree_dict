@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "prefix_tree_dict.cma"
+archive(native) = "prefix_tree_dict.cmxa"
+plugin(byte) = "prefix_tree_dict.cma"
+plugin(native) = "prefix_tree_dict.cmxs"

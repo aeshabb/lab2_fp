@@ -1,0 +1,35 @@
+(lang dune 3.20)
+(name prefix_tree_dict)
+(sections (lib .) (libexec .) (doc ../../doc/prefix_tree_dict))
+(files
+ (lib
+  (META
+   dune-package
+   opam
+   prefix_tree_dict.a
+   prefix_tree_dict.cma
+   prefix_tree_dict.cmi
+   prefix_tree_dict.cmt
+   prefix_tree_dict.cmti
+   prefix_tree_dict.cmx
+   prefix_tree_dict.cmxa
+   prefix_tree_dict.ml
+   prefix_tree_dict.mli))
+ (libexec (prefix_tree_dict.cmxs))
+ (doc (README.md)))
+(library
+ (name prefix_tree_dict)
+ (kind normal)
+ (archives (byte prefix_tree_dict.cma) (native prefix_tree_dict.cmxa))
+ (plugins (byte prefix_tree_dict.cma) (native prefix_tree_dict.cmxs))
+ (native_archives prefix_tree_dict.a)
+ (main_module_name Prefix_tree_dict)
+ (modes byte native)
+ (modules
+  (singleton
+   (obj_name prefix_tree_dict)
+   (visibility public)
+   (source
+    (path Prefix_tree_dict)
+    (intf (path prefix_tree_dict.mli))
+    (impl (path prefix_tree_dict.ml))))))
